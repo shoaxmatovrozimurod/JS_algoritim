@@ -48,15 +48,15 @@ console.log(ism , yil);
 
 
 
-// let telegram = {
-//     turi: "Aka",
-//     yaratuchisi:"P Durov",
-//     yaratilgan: 2017,
-//     joyi: "Rossiya",
-//     foydalanuchilari: "Internet foydalanuchilarining 18%",
-//     foydali: "Tanishlar bilan aloqa qilish uchun"
-// };
-// console.log(telegram.yaratuchisi , telegram.foydalanuchilari);
+let telegram = {
+    turi: "Aka",
+    yaratuchisi:"P Durov",
+    yaratilgan: 2017,
+    joyi: "Rossiya",
+    foydalanuchilari: "Internet foydalanuchilarining 18%",
+    foydali: "Tanishlar bilan aloqa qilish uchun"
+};
+console.log(telegram.yaratuchisi , telegram.foydalanuchilari);
 
 
 // let number = 14567;
