@@ -41,10 +41,10 @@ alert("Almashtirilgandan so'ng:\nA = " + A + "\nB = " + B);
 
 
 
-// let ism = "Ro'zimurod";
-// const yil = 2007 ;
+let ism = "Murod";
+const yil = 2007 ;
 
-// console.log(ism , yil);
+console.log(ism , yil);
 
 
 
