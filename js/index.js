@@ -1,16 +1,16 @@
 // 1
-let R = 5;
-let L = 2 * Math.PI * R;
-let S = Math.PI * Math.pow (R,2);
-console.log("Doira radyusi R =", R);
-console.log("Doira uzunligi L =" , L.toFixed(0));
-console.log("Doira yuzi S =" , S.toFixed(0));
+// let R = 5;
+// let L = 2 * Math.PI * R;
+// let S = Math.PI * Math.pow (R,2);
+// console.log("Doira radyusi R =", R);
+// console.log("Doira uzunligi L =" , L.toFixed(0));
+// console.log("Doira yuzi S =" , S.toFixed(0));
 
 // 2
-// let a = 16;
-// let b = 4;
-// let G = Math.sqrt(a * b)
-// alert("Orta geometrigi G=" + G)
+let a = 16;
+let b = 4;
+let G = Math.sqrt(a * b)
+alert("Orta geometrigi G=" + G)
 
 // 3
 // let x = prompt("x ning qiymatini kiriting:");
