@@ -66,15 +66,15 @@ console.log(ism , yil);
 
 // 8,30
 
-let R = +prompt("R ni kiriting");
-let L = 2 * Math.PI * R;
-let S = Math.PI * R * R
-console.log ("doira uzunligi L =", L .toFixed(2), "\ndoira yuzi S =", S.toFixed(2));
+// let R = +prompt("R ni kiriting");
+// let L = 2 * Math.PI * R;
+// let S = Math.PI * R * R
+// console.log ("doira uzunligi L =", L .toFixed(2), "\ndoira yuzi S =", S.toFixed(2));
 
-// let a = +prompt("a ni kirit");
-// let b = +prompt("b ni kirit");
-// let G = Math.sqrt(a * b);
-// console.log  (G .toFixed(2));
+let a = +prompt("a ni kirit");
+let b = +prompt("b ni kirit");
+let G = Math.sqrt(a * b);
+console.log  (G .toFixed(2));
 
 // let x = +prompt("x ni kirit") ;
 // let y = Math.round(3 * (x ** 6) - 6 * (x ** 2) - 7);
