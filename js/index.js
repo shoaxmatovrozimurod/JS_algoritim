@@ -19,23 +19,23 @@
 // alert("y ning qiymati:" + y.toFixed(2));
 
 // 4
-let X = +prompt("necha kg konfet oldingiz X:");
-let A = +prompt("necha so'm bo'ldi A:");
-let Y = +prompt("Sizga yana qancha konfet olmoqchisiz Y:");
+// let X = +prompt("necha kg konfet oldingiz X:");
+// let A = +prompt("necha so'm bo'ldi A:");
+// let Y = +prompt("Sizga yana qancha konfet olmoqchisiz Y:");
 
-let birKgNarxi = A / X;
-let YKgningNarxi = birKgNarxi * Y;
+// let birKgNarxi = A / X;
+// let YKgningNarxi = birKgNarxi * Y;
 
 
 // console.log(YKgningNarxi)
 
 // 5
-// let A = prompt("A sonni kiriting:");
-// let B = prompt("B sonni kiriting:");
+let A = prompt("A sonni kiriting:");
+let B = prompt("B sonni kiriting:");
 
-// [A, B] = [B, A]
+[A, B] = [B, A]
 
-// alert("Almashtirilgandan so'ng:\nA = " + A + "\nB = " + B);
+alert("Almashtirilgandan so'ng:\nA = " + A + "\nB = " + B);
 
 
 
