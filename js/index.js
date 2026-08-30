@@ -59,17 +59,17 @@ console.log(ism , yil);
 // console.log(telegram.yaratuchisi , telegram.foydalanuchilari);
 
 
-let number = 14567;
+// let number = 14567;
 
-let newNumber = Math.floor ((number / 100) % 10);
-console.log (newNumber);
+// let newNumber = Math.floor ((number / 100) % 10);
+// console.log (newNumber);
 
 // 8,30
 
-// let R = +prompt("R ni kiriting");
-// let L = 2 * Math.PI * R;
-// let S = Math.PI * R * R
-// console.log ("doira uzunligi L =", L .toFixed(2), "\ndoira yuzi S =", S.toFixed(2));
+let R = +prompt("R ni kiriting");
+let L = 2 * Math.PI * R;
+let S = Math.PI * R * R
+console.log ("doira uzunligi L =", L .toFixed(2), "\ndoira yuzi S =", S.toFixed(2));
 
 // let a = +prompt("a ni kirit");
 // let b = +prompt("b ni kirit");
