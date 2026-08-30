@@ -7,16 +7,16 @@
 // console.log("Doira yuzi S =" , S.toFixed(0));
 
 // 2
-let a = 16;
-let b = 4;
-let G = Math.sqrt(a * b)
-alert("Orta geometrigi G=" + G)
+// let a = 16;
+// let b = 4;
+// let G = Math.sqrt(a * b)
+// alert("Orta geometrigi G=" + G)
 
 // 3
-// let x = prompt("x ning qiymatini kiriting:");
-// x = Number (x);
-// let y = 3 * (x ** 6) - 6 * (x ** 2) - 7 ;
-// alert("y ning qiymati:" + y.toFixed(2));
+let x = prompt("x ning qiymatini kiriting:");
+x = Number (x);
+let y = 3 * (x ** 6) - 6 * (x ** 2) - 7 ;
+alert("y ning qiymati:" + y.toFixed(2));
 
 // 4
 // let X = +prompt("necha kg konfet oldingiz X:");
