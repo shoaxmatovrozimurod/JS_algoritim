@@ -13,18 +13,18 @@
 // alert("Orta geometrigi G=" + G)
 
 // 3
-let x = prompt("x ning qiymatini kiriting:");
-x = Number (x);
-let y = 3 * (x ** 6) - 6 * (x ** 2) - 7 ;
-alert("y ning qiymati:" + y.toFixed(2));
+// let x = prompt("x ning qiymatini kiriting:");
+// x = Number (x);
+// let y = 3 * (x ** 6) - 6 * (x ** 2) - 7 ;
+// alert("y ning qiymati:" + y.toFixed(2));
 
 // 4
-// let X = +prompt("necha kg konfet oldingiz X:");
-// let A = +prompt("necha so'm bo'ldi A:");
-// let Y = +prompt("Sizga yana qancha konfet olmoqchisiz Y:");
+let X = +prompt("necha kg konfet oldingiz X:");
+let A = +prompt("necha so'm bo'ldi A:");
+let Y = +prompt("Sizga yana qancha konfet olmoqchisiz Y:");
 
-// let birKgNarxi = A / X;
-// let YKgningNarxi = birKgNarxi * Y;
+let birKgNarxi = A / X;
+let YKgningNarxi = birKgNarxi * Y;
 
 
 // console.log(YKgningNarxi)
