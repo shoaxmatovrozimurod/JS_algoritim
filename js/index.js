@@ -83,18 +83,18 @@ console.log(ism , yil);
 // console.log( "Funksiya qiymati y =", y);
 
 
-let x = +prompt("x kg kirit");
-let a = +prompt("x kg ni narxi");
-let y = +prompt("qo'shimcha y kg konfet");
+// let x = +prompt("x kg kirit");
+// let a = +prompt("x kg ni narxi");
+// let y = +prompt("qo'shimcha y kg konfet");
 
-let narxi = a / x;
-let ykgNarxi = narxi * y;
-console.log(ykgNarxi)
+// let narxi = a / x;
+// let ykgNarxi = narxi * y;
+// console.log(ykgNarxi)
 
-// let a = +prompt("a ni kirit");
-// let b = +prompt("b ni kirit");
+let a = +prompt("a ni kirit");
+let b = +prompt("b ni kirit");
 
-// [a, b] = [b, a];
+[a, b] = [b, a];
 
-// console.log("Almashgandan so'ng: \n a = " + a + "\n b = " + b  )
+console.log("Almashgandan so'ng: \n a = " + a + "\n b = " + b  )
 
