@@ -76,20 +76,20 @@ console.log(ism , yil);
 // let G = Math.sqrt(a * b);
 // console.log  (G .toFixed(2));
 
-let x = +prompt("x ni kirit") ;
-let y = Math.round(3 * (x ** 6) - 6 * (x ** 2) - 7);
-// let y = 3 * (x ** 6) - 6 * (x ** 2) - 7;
+// let x = +prompt("x ni kirit") ;
+// let y = Math.round(3 * (x ** 6) - 6 * (x ** 2) - 7);
+// // let y = 3 * (x ** 6) - 6 * (x ** 2) - 7;
 
-console.log( "Funksiya qiymati y =", y);
+// console.log( "Funksiya qiymati y =", y);
 
 
-// let x = +prompt("x kg kirit");
-// let a = +prompt("x kg ni narxi");
-// let y = +prompt("qo'shimcha y kg konfet");
+let x = +prompt("x kg kirit");
+let a = +prompt("x kg ni narxi");
+let y = +prompt("qo'shimcha y kg konfet");
 
-// let narxi = a / x;
-// let ykgNarxi = narxi * y;
-// console.log(ykgNarxi)
+let narxi = a / x;
+let ykgNarxi = narxi * y;
+console.log(ykgNarxi)
 
 // let a = +prompt("a ni kirit");
 // let b = +prompt("b ni kirit");
