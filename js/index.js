@@ -30,21 +30,21 @@
 // console.log(YKgningNarxi)
 
 // 5
-let A = prompt("A sonni kiriting:");
-let B = prompt("B sonni kiriting:");
+// let A = prompt("A sonni kiriting:");
+// let B = prompt("B sonni kiriting:");
 
-[A, B] = [B, A]
+// [A, B] = [B, A]
 
-alert("Almashtirilgandan so'ng:\nA = " + A + "\nB = " + B);
-
-
+// alert("Almashtirilgandan so'ng:\nA = " + A + "\nB = " + B);
 
 
 
-let ism = "Murod";
-const yil = 2007 ;
 
-console.log(ism , yil);
+
+// let ism = "Murod";
+// const yil = 2007 ;
+
+// console.log(ism , yil);
 
 
 
@@ -91,10 +91,21 @@ console.log(ism , yil);
 // let ykgNarxi = narxi * y;
 // console.log(ykgNarxi)
 
+// let a = +prompt("a ni kirit");
+// let b = +prompt("b ni kirit");
+
+// [a, b] = [b, a];
+
+// console.log("Almashgandan so'ng: \n a = " + a + "\n b = " + b  )
+
+
+
+// 31.08
+
 let a = +prompt("a ni kirit");
-let b = +prompt("b ni kirit");
-
-[a, b] = [b, a];
-
-console.log("Almashgandan so'ng: \n a = " + a + "\n b = " + b  )
+if (a % 2 !== 0) {
+    alert(true);
+}else {
+    alert(false);
+}
 
