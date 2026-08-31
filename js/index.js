@@ -206,14 +206,24 @@
 // }
 
 
+// let a = +prompt("a ni kirit");
+// let b = +prompt("b ni kirit");
+
+// if(a % 2 !==0 || b % 2 !== 0){
+//     alert(true);
+// }else{
+//     alert(false);
+// }
+
+
+
 let a = +prompt("a ni kirit");
 let b = +prompt("b ni kirit");
 
-if(a % 2 !==0 || b % 2 !== 0){
-    alert(true);
+if(a % 2 !==0 && b % 2 === 0 || a % 2 === 0 && b % 2 !== 0){
+    alert("faqat bitasi toq");
 }else{
-    alert(false);
-
+    alert("har ikkisi juft or toq");
 }
 
 
