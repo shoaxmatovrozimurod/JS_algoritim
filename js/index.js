@@ -165,14 +165,23 @@
 // }
 
 
-let a = +prompt("a ni kirit");
+// let a = +prompt("a ni kirit");
 
-if(a % 2 === 0){
+// if(a % 2 === 0){
+//     alert(true);
+// }else{
+//     alert(false);
+// }
+
+
+let a = +prompt("a ni kirit");
+let b = +prompt("b ni kirit");
+
+if(a >= 0 || b < -2){
     alert(true);
 }else{
-    alert(false);
+    alert(falde)
 }
-
 
 
 
