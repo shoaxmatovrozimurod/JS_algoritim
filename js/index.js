@@ -120,13 +120,29 @@
 // }
 
 
-let a = +prompt("a ni kirit");
-let b = +prompt("b ni kirit");
+// let a = +prompt("a ni kirit");
+// let b = +prompt("b ni kirit");
 
-if(a % 2 === 0 && (b % 2 === 0)){
-    alert(true);
+// if(a % 2 === 0 && (b % 2 === 0)){
+//     alert(true);
+// }else{
+//     alert(false);
+// }
+
+
+// let x = +prompt("x ni kirit")
+
+let x = 123;
+
+let a = Math.floor(x / 100);
+let b = Math.floor(x / 10) % 10;
+let c = Math.floor(x / 100) % 10;
+
+
+if(x > 99 && x < 1000){
+    alert("x uch xonali son");
 }else{
-    alert(false);
+    alert("x uch xonali son emas")
 }
 
 
