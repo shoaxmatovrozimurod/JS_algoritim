@@ -132,17 +132,37 @@
 
 // let x = +prompt("x ni kirit")
 
-let x = 123;
+// let x = 123;
 
-let a = Math.floor(x / 100);
-let b = Math.floor(x / 10) % 10;
-let c = Math.floor(x / 100) % 10;
+// let a = Math.floor(x / 100);
+// let b = Math.floor(x / 10) % 10;
+// let c = Math.floor(x / 100) % 10;
 
 
-if(x > 99 && x < 1000){
-    alert("x uch xonali son");
+// if(x > 99 && x < 1000){
+//     alert("x uch xonali son");
+// }else{
+//     alert("x uch xonali son emas")
+// }
+
+
+
+let x = +prompt("3 xonali son kirit")
+
+if(x > 99 && (x < 1000)){
+
+let yuzlr = Math.floor(x / 100);
+let onlar = Math.floor((x % 100) /10);
+let birlar = Math.floor(x % 10);
+
+if(yuzlr === onlar ||yuzlr === birlar || onlar === birlar ){
+    alert(true);
 }else{
-    alert("x uch xonali son emas")
+    alert(false);
 }
+}else{
+    alert("uch xonali son emas");
+}
+
 
 
