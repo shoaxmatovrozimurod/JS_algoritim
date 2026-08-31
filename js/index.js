@@ -110,13 +110,23 @@
 // }
 
 
+// let a = +prompt("a ni kirit");
+// let b = +prompt("b ni kirit");
+
+// if(a > 2 && b <= 3){
+//     alert(true);
+// } else{
+//     alert(false)
+// }
+
+
 let a = +prompt("a ni kirit");
 let b = +prompt("b ni kirit");
 
-if(a > 2 && b <= 3){
+if(a % 2 === 0 && (b % 2 === 0)){
     alert(true);
-} else{
-    alert(false)
+}else{
+    alert(false);
 }
 
 
