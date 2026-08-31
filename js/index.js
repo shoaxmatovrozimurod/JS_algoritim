@@ -174,13 +174,24 @@
 // }
 
 
+// let a = +prompt("a ni kirit");
+// let b = +prompt("b ni kirit");
+
+// if(a >= 0 || b < -2){
+//     alert(true);
+// }else{
+//     alert(falde)
+// }
+
+
 let a = +prompt("a ni kirit");
 let b = +prompt("b ni kirit");
+let c = +prompt("c ni kirit");
 
-if(a >= 0 || b < -2){
+if(a < b && b < c){
     alert(true);
 }else{
-    alert(falde)
+    alert(false);
 }
 
 
