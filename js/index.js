@@ -248,12 +248,20 @@
 //     alert(false);
 // }
 
-let x = +prompt("x ni kirit");
+// let x = +prompt("x ni kirit");
 
-if (9 <x && x <100){
-    alert(true);
+// if (9 <x && x <100){
+//     alert(true);
+// }else{
+//     alert(false);
+// }
+
+let y = +prompt("y ni kirit");
+
+if (y > 99 && y < 1000 && y % 2 !== 0){
+    alert(true)
 }else{
-    alert(false);
+    alert(false)
 }
 
 
