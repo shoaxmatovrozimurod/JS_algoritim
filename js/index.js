@@ -239,10 +239,18 @@
 // }
 
 
-let a = +prompt("a ni kitit");
-let b = +prompt("b ni kitit");
-let c = +prompt("c ni kitit");
-if(a > 0, b > 0, c < 0 || a > 0, b < 0, c > 0 || a < 0, b >0, c > 0){
+// let a = +prompt("a ni kitit");
+// let b = +prompt("b ni kitit");
+// let c = +prompt("c ni kitit");
+// if(a > 0, b > 0, c < 0 || a > 0, b < 0, c > 0 || a < 0, b >0, c > 0){
+//     alert(true);
+// }else{
+//     alert(false);
+// }
+
+let x = +prompt("x ni kirit");
+
+if (9 <x && x <100){
     alert(true);
 }else{
     alert(false);
