@@ -227,15 +227,25 @@
 // }
 
 
-let a = +prompt("a ni kirit");
-let b = +prompt("b ni kirit");
-let c = +prompt("c ni kirit");
+// let a = +prompt("a ni kirit");
+// let b = +prompt("b ni kirit");
+// let c = +prompt("c ni kirit");
 
 
-if (a > 0, b < 0, c < 0  || a < 0, b > 0, c < 0  || a < 0, b < 0, c > 0 ){
-    alert("kamida 1 tasi musbat ")
+// if (a > 0, b < 0, c < 0  || a < 0, b > 0, c < 0  || a < 0, b < 0, c > 0 ){
+//     alert("kamida 1 tasi musbat ")
+// }else{
+//     alert("1 tadan ko'pi musbat")
+// }
+
+
+let a = +prompt("a ni kitit");
+let b = +prompt("b ni kitit");
+let c = +prompt("c ni kitit");
+if(a > 0, b > 0, c < 0 || a > 0, b < 0, c > 0 || a < 0, b >0, c > 0){
+    alert(true);
 }else{
-    alert("1 tadan ko'pi musbat")
+    alert(false);
 }
 
 
