@@ -233,7 +233,7 @@ let c = +prompt("c ni kirit");
 
 
 if (a > 0, b < 0, c < 0  || a < 0, b > 0, c < 0  || a < 0, b < 0, c > 0 ){
-    alert("faqat 1 tasi musbat ")
+    alert("kamida 1 tasi musbat ")
 }else{
     alert("1 tadan ko'pi musbat")
 }
