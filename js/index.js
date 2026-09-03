@@ -238,6 +238,8 @@
 //     alert("1 tadan ko'pi musbat")
 // }
 
+// 03.09
+
 
 // let a = +prompt("a ni kitit");
 // let b = +prompt("b ni kitit");
@@ -256,15 +258,23 @@
 //     alert(false);
 // }
 
-let y = +prompt("y ni kirit");
+// let y = +prompt("y ni kirit");
 
-if (y > 99 && y < 1000 && y % 2 !== 0){
+// if (y > 99 && y < 1000 && y % 2 !== 0){
+//     alert(true)
+// }else{
+//     alert(false)
+// }
+
+
+let a = +prompt("a ni kirit");
+let b = +prompt("b ni kirit");
+let c = +prompt("c ni kirit");
+
+if(a === b && b !== c || b === c && c !== a || a === c && a !== b){
     alert(true)
 }else{
     alert(false)
 }
-
-
-
 
 
