@@ -267,14 +267,24 @@
 // }
 
 
-let a = +prompt("a ni kirit");
-let b = +prompt("b ni kirit");
-let c = +prompt("c ni kirit");
+// let a = +prompt("a ni kirit");
+// let b = +prompt("b ni kirit");
+// let c = +prompt("c ni kirit");
 
-if(a === b && b !== c || b === c && c !== a || a === c && a !== b){
-    alert(true)
+// if(a === b && b !== c || b === c && c !== a || a === c && a !== b){
+//     alert(true)
+// }else{
+//     alert(false)
+// }
+
+let n = +prompt(" uch xonali son kirit");
+
+let a = Math.floor(n / 100);
+let b = Math.floor((n / 10)% 10);
+let c = n % 10;
+if(a < b && b < c ){
+    
+    alert(true);
 }else{
-    alert(false)
+    alert(false);
 }
-
-
