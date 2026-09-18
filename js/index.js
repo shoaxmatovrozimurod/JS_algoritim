@@ -277,14 +277,36 @@
 //     alert(false)
 // }
 
-let n = +prompt(" uch xonali son kirit");
+// let n = +prompt(" uch xonali son kirit");
 
-let a = Math.floor(n / 100);
-let b = Math.floor((n / 10)% 10);
-let c = n % 10;
-if(a < b && b < c ){
+// let a = Math.floor(n / 100);
+// let b = Math.floor((n / 10)% 10);
+// let c = n % 10;
+// if(a < b && b < c ){
     
+//     alert(true);
+// }else{
+//     alert(false);
+// }
+
+
+
+
+
+
+
+// 9.18
+
+
+let number = prompt(" uch xonali son kirit");
+
+let a = Math.floor(number / 100);
+let b = Math.floor((number / 10)% 10);
+let c = Math.floor(number % 10);
+
+if (a !== b && a !== c && b !== c){
     alert(true);
 }else{
     alert(false);
 }
+
