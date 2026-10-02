@@ -312,13 +312,13 @@
 
 
 
-let quti = ["olma", "banan","shaftoli"];
-let check = quti.includes("uzum") ;
-if(quti.includes("uzum")){
-    alert(true);
-}else{
-    alert(false);
-}
+let arr = [5, 10, 15, 20, 26];
+let arr1 = arr.shift(arr)
+let arr2 = arr.pop(arr)
+
+console.log(arr1);
+console.log(arr2);
+console.log(arr);
 
 
 
