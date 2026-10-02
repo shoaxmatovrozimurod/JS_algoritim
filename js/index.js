@@ -312,8 +312,8 @@
 
 
 
-let number = [1, 3, 5, 6, 3, 8, 9];
-let newArr = number.map(num => num * 3);
+let names = ["farud", "ali", "vali"]
+let newArr = names.map(name => name [0].toUpperCase() + name.slice(1))
 console.log(newArr);
 
 
