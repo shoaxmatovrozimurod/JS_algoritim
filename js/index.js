@@ -304,5 +304,9 @@ let a = Math.floor(number / 100);
 let b = Math.floor((number / 10)% 10);
 let c = Math.floor(number % 10);
 
-
+if (a !== b && a !== c && b !== c){
+    alert(true);
+}else{
+    alert(false);
+}
 
