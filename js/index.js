@@ -312,9 +312,21 @@
 
 
 
-let names = ["farud", "ali", "vali"]
-let newArr = names.map(name => name [0].toUpperCase() + name.slice(1))
-console.log(newArr);
+let box = [{
+        id: 1,
+        name: "Ali"
+    },
+    {
+        id: 2,
+        name: "Nozim"
+    },
+    {
+        id: 3,
+        name: "Vali"
+    }
+]
+let poisk = box.find (key => key.id === 2);
+console.log(poisk)
 
 
 
