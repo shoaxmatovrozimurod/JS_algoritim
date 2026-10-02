@@ -312,21 +312,62 @@
 
 
 
-let box = [{
-        id: 1,
-        name: "Ali"
-    },
-    {
-        id: 2,
-        name: "Nozim"
-    },
-    {
-        id: 3,
-        name: "Vali"
-    }
-]
-let poisk = box.find (key => key.id === 2);
-console.log(poisk)
+
+// let person = {
+//     id : 1, 
+//     name: "Rozimirod"
+// }
+
+// console.log(person[1]);
+
+
+// Bracket notation
+
+
+// let person = {
+//     id: 11,
+//     name : "Muhammad",
+// }
+
+// person.properties = "fast food eat"
+
+
+// console.log(Object.freeze(person));
+
+// person.age = 21;
+
+// console.log(person);
+
+// let person = {
+//      id: 1,
+//      age : 12,
+//      name : "Babby"
+// }
+
+// for (const key in person) {
+//     console.log(person); 
+// }
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+
+// for (const element of arr) {
+//     console.log(element);
+    
+// }
+
+
+let person = {
+     id : 1, 
+     name : "Abdulla",
+     age: 16,
+}
+
+
+let newPerson = JSON.stringify(person);
+
+let newPerson1 = JSON.parse(newPerson);
+console.log(newPerson1);
+
 
 
 
