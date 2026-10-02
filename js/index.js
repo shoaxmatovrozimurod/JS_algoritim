@@ -298,15 +298,23 @@
 // 9.18
 
 
-let number = prompt(" uch xonali son kirit");
+// let number = prompt(" uch xonali son kirit");
 
-let a = Math.floor(number / 100);
-let b = Math.floor((number / 10)% 10);
-let c = Math.floor(number % 10);
+// let a = Math.floor(number / 100);
+// let b = Math.floor((number / 10)% 10);
+// let c = Math.floor(number % 10);
 
-if (a !== b && a !== c && b !== c){
-    alert(true);
-}else{
-    alert(false);
-}
+// if (a !== b && a !== c && b !== c){
+//     alert(true);
+// }else{
+//     alert(false);
+// }
+
+// 9.25
+let arr = [10, 20, 30 ];
+let arr1 = [40, 50, 60];
+
+let newArr = arr.concat(arr1);
+
+console.log(newArr);
 
