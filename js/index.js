@@ -324,36 +324,36 @@
 // Bracket notation
 
 
+let person = {
+    id: 11,
+    name : "Muhammad",
+}
+
+person.properties = "fast food eat"
+
+
+console.log(Object.freeze(person));
+
+person.age = 21;
+
+console.log(person);
+
 // let person = {
-//     id: 11,
-//     name : "Muhammad",
+//      id: 1,
+//      age : 12,
+//      name : "Babby"
 // }
 
-// person.properties = "fast food eat"
+// for (const key in person) {
+//     console.log(person); 
+// }
 
+// let arr = [1, 2, 3, 4, 5, 6, 7];
 
-// console.log(Object.freeze(person));
-
-// person.age = 21;
-
-// console.log(person);
-
-let person = {
-     id: 1,
-     age : 12,
-     name : "Babby"
-}
-
-for (const key in person) {
-    console.log(person); 
-}
-
-let arr = [1, 2, 3, 4, 5, 6, 7];
-
-for (const element of arr) {
-    console.log(element);
+// for (const element of arr) {
+//     console.log(element);
     
-}
+// }
 
 
 // let person = {
