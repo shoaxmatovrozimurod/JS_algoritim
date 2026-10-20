@@ -338,35 +338,35 @@
 
 // console.log(person);
 
-// let person = {
-//      id: 1,
-//      age : 12,
-//      name : "Babby"
-// }
-
-// for (const key in person) {
-//     console.log(person); 
-// }
-
-// let arr = [1, 2, 3, 4, 5, 6, 7];
-
-// for (const element of arr) {
-//     console.log(element);
-    
-// }
-
-
 let person = {
-     id : 1, 
-     name : "Abdulla",
-     age: 16,
+     id: 1,
+     age : 12,
+     name : "Babby"
+}
+
+for (const key in person) {
+    console.log(person); 
+}
+
+let arr = [1, 2, 3, 4, 5, 6, 7];
+
+for (const element of arr) {
+    console.log(element);
+    
 }
 
 
-let newPerson = JSON.stringify(person);
+// let person = {
+//      id : 1, 
+//      name : "Abdulla",
+//      age: 16,
+// }
 
-let newPerson1 = JSON.parse(newPerson);
-console.log(newPerson1);
+
+// let newPerson = JSON.stringify(person);
+
+// let newPerson1 = JSON.parse(newPerson);
+// console.log(newPerson1);
 
 
 
