@@ -298,27 +298,27 @@
 // 9.18
 
 
-// let number = prompt(" uch xonali son kirit");
+let number = prompt(" uch xonali son kirit");
 
-// let a = Math.floor(number / 100);
-// let b = Math.floor((number / 10)% 10);
-// let c = Math.floor(number % 10);
+let a = Math.floor(number / 100);
+let b = Math.floor((number / 10)% 10);
+let c = Math.floor(number % 10);
 
-// if (a !== b && a !== c && b !== c){
-//     alert(true);
-// }else{
-//     alert(false);
-// }
-
-
-
-
-let person = {
-    id : 1, 
-    name: "Rozimirod"
+if (a !== b && a !== c && b !== c){
+    alert(true);
+}else{
+    alert(false);
 }
 
-console.log(person[1]);
+
+
+
+// let person = {
+//     id : 1, 
+//     name: "Rozimirod"
+// }
+
+// console.log(person[1]);
 
 
 // Bracket notation
