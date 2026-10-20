@@ -313,30 +313,30 @@
 
 
 
-// let person = {
-//     id : 1, 
-//     name: "Rozimirod"
-// }
+let person = {
+    id : 1, 
+    name: "Rozimirod"
+}
 
-// console.log(person[1]);
+console.log(person[1]);
 
 
 // Bracket notation
 
 
-let person = {
-    id: 11,
-    name : "Muhammad",
-}
+// let person = {
+//     id: 11,
+//     name : "Muhammad",
+// }
 
-person.properties = "fast food eat"
+// person.properties = "fast food eat"
 
 
-console.log(Object.freeze(person));
+// console.log(Object.freeze(person));
 
-person.age = 21;
+// person.age = 21;
 
-console.log(person);
+// console.log(person);
 
 // let person = {
 //      id: 1,
